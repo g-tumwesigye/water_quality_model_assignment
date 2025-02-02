@@ -29,13 +29,14 @@ The goal is to **predict water potability** using a **neural network model built
 | **Early Stopping** | Patience = 20 |
 | **Class Weighting** | `{0:1, 1:1.5}` |
 
-### 📊 **Final Model Performance**
+### 📊 **Final Model Performance
 | Metric        | Value |
 |--------------|--------|
-| **Test Accuracy** | **64.23%** |
-| **F1 Score** | **0.5417** |
+| **Test Accuracy** | **67.07%** |
+| **F1 Score** | **0.5622** |
 | **Recall** | **54.17%** |
-| **Precision** | **54.17%** |
+| **Precision** | **58.43%** |
+
 
 ---
 
@@ -65,12 +66,9 @@ water_quality_model_assignment/
 │── (Other team members' branches exist separately)
 ```bash
 
-
 ## 📝 **Actions**
 ✅ Implemented **RMSprop optimizer**  
 ✅ Tuned **Dropout & Class Weights** for better balance between recall and precision.  
 ✅ Applied **Early Stopping (patience=20)** for optimal training.  
-✅ Achieved **64.23% Accuracy** with improved recall & precision.
-
-
+✅ Achieved **67.07% Accuracy** with improved recall and precision.
 
