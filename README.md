@@ -1,4 +1,6 @@
-# Water Quality Classification using Neural Networks
+# water_quality_model_assignment
+
+## Water Quality Classification using Neural Networks
 
 ## Group Members
 - **Jules Gatete**
