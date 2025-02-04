@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ## Model Training
 Each group member defines a unique model with distinct **learning rate, dropout rate, and early stopping criteria**:
 - **Jules Gatete**: Adam optimizer with L2 regularization
-- **Pascal Mugisha**: RMSprop optimizer with Dropout
+- **Pascal Mugisha**: RMSprop optimizer with Dropout, and L2_regularization.
 - **Geofrey Tumwesigye**: SGD optimizer with Momentum
 
 Each model is trained and evaluated separately.
@@ -60,7 +60,7 @@ A summary table documents each member's results:
 | Engineer | Regularizer | Optimizer | Early Stopping | Dropout Rate | Accuracy | F1 Score | Recall | Precision |
 |----------|------------|-----------|---------------|-------------|---------|---------|--------|----------|
 | Jules Gatete | L2 | Adam | Yes | 0.2 | X.XX | X.XX | X.XX | X.XX |
-| Pascal Mugisha | None | RMSprop | No | 0.3 | X.XX | X.XX | X.XX | X.XX |
+| Pascal Mugisha | None | RMSprop | No | 0.3 | 66.0% | 0.301 | 0.187 | 77.4%|
 | Geofrey Tumwesigye | None | SGD + Momentum | Yes | 0.1 | X.XX | X.XX | X.XX | X.XX |
 
 ## Video Submission
