@@ -71,7 +71,7 @@ Install dependencies:
    pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
    python train_model.py
    python evaluate_model.py
-```bash
 
 
-## 👤 Author: **Geofrey Tumwesigye** 
+## Author: **Geofrey Tumwesigye** 
+
