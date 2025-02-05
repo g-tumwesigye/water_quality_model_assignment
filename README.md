@@ -11,7 +11,7 @@
 This project implements a neural network-based classification model to determine water potability using the provided dataset. Each group member applies unique optimization techniques, ensuring diverse approaches and meaningful comparisons.
 
 ## Dataset
-We use the **Water Quality and Potability Dataset** available at Kaggle:
+We used the **Water Quality and Potability Dataset** from Kaggle:
 [Water Quality Dataset](https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability?select=water_potability.csv)
 
 ## Repository Structure
