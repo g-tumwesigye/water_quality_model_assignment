@@ -38,22 +38,20 @@ We use the **Water Quality and Potability Dataset** available at Kaggle:
   - 📄 [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/MPascal/README.md)
 
 #### Geofrey's Branch
--  **geofrey_branch/**
+- **geofrey_branch/**
   - 📄 [the_model.ipynb](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/geofrey_branch/the_model.ipynb)
   - 📄 [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/geofrey_branch/README.md)
 
-
-```
 ## Data Preprocessing
 - Load dataset and handle missing values
 - Normalize features for better training performance
-- Splitted data 
+- Split data into training and testing sets
 
 ## Model Training
 Each group member defines a unique model with distinct **learning rate, dropout rate, and early stopping criteria**:
 - **Jules Gatete**: Adam optimizer with L2 regularization
-- **Pascal Mugisha**: RMSprop optimizer with Dropout, and L2_regularization.
-- **Geofrey Tumwesigye**: SGD optimizer with Momentum
+- **Pascal Mugisha**: RMSprop optimizer with dropout and L2 regularization
+- **Geofrey Tumwesigye**: SGD optimizer with momentum
 
 Each model is trained and evaluated separately.
 
@@ -64,18 +62,16 @@ Each member compares their model's performance based on:
 - **Precision & Recall**
 - **Loss Analysis**
 
-A summary table documents each member's results:
-
+### Model Performance Summary
 | Member Name        | Regularizer  | Optimizer | Early Stopping | Dropout Rate | Accuracy | F1 Score | Recall | Precision |
 |--------------------|-------------|-----------|---------------|-------------|---------|---------|--------|----------|
 | Jules Gatete      | L2 (0.0002)  | Adam      | Yes (5)       | 0.1         | 67%     | 0.583   | 0.593  | 0.572    |
 | Geofrey Tumwesigye | L2 (0.007)  | RMSprop   | Yes (25)      | 0.2         | 66.87%  | 0.583   | 0.594  | 0.572    |
 | Pascal Mugisha    | L2 (0.01)    | SGD       | Yes (10)      | 0.3         | 66.2%   | 0.301   | 0.187  | 0.778    |
 
-
 ## Video Submission
-A video walkthrough explaining the models, optimizations, and results is included. 
-[Video Link - To be added]
+A video walkthrough explaining the models, optimizations, and results.  
+[Video Link - (To be added)]
 
 ## Contribution and Documentation
 - Each member contributed by defining a model, training, and evaluating it.
