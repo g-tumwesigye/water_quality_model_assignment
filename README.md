@@ -69,7 +69,7 @@ Each member compared his model's performance based on:
 
 ## Video Submission
 A video walkthrough explaining the models, optimizations, and results.  
-[Video Link - (To be added)]
+[Video Link - (https://drive.google.com/file/d/15Rbyb6RUzl0pnUc7Di57OSe6WO4XFVHC/view?usp=sharing)]
 
 ## Group report
 [Link to the group report (https://docs.google.com/document/d/1OrhiF1HIOaJfwLg2nQ_42MbJUmUYxLkcQBXUHiwqh6Y/edit?tab=t.0)]
