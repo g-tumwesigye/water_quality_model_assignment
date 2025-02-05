@@ -24,23 +24,23 @@ We used the **Water Quality and Potability Dataset** from Kaggle:
 
 #### Main Branch
 - **main/**
-  - 📄 [Water_Quality_Analysis_PLD4.ipynb](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/main/Water_Qaulity_Analysis_PLD4.ipynb)
-  - 📄 [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/main/README.md)
+  - [Water_Quality_Analysis_PLD4.ipynb](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/main/Water_Qaulity_Analysis_PLD4.ipynb)
+  - [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/main/README.md)
 
 #### Jules' Branch
 - **Jules_branch/**
-  - 📄 [Water_Quality_Model.ipynb](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/Jules_branch/Water_Quality_Model.ipynb)
-  - 📄 [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/Jules_branch/README.md)
+  - [Water_Quality_Model.ipynb](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/Jules_branch/Water_Quality_Model.ipynb)
+  - [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/Jules_branch/README.md)
 
 #### Pascal's Branch
 - **MPascal/**
-  - 📄 [water_quality_model_assignment](https://github.com/g-tumwesigye/water_quality_model_assignment/tree/MPascal)
-  - 📄 [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/MPascal/README.md)
+  - [water_quality_model_assignment](https://github.com/g-tumwesigye/water_quality_model_assignment/tree/MPascal)
+  - [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/MPascal/README.md)
 
 #### Geofrey's Branch
 - **geofrey_branch/**
-  - 📄 [the_model.ipynb](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/geofrey_branch/the_model.ipynb)
-  - 📄 [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/geofrey_branch/README.md)
+  - [the_model.ipynb](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/geofrey_branch/the_model.ipynb)
+  - [README.md](https://github.com/g-tumwesigye/water_quality_model_assignment/blob/geofrey_branch/README.md)
 
 ## Data Preprocessing
 - Load dataset and handle missing values
@@ -48,15 +48,13 @@ We used the **Water Quality and Potability Dataset** from Kaggle:
 - Split data into training and testing sets
 
 ## Model Training
-Each group member defines a unique model with distinct **learning rate, dropout rate, and early stopping criteria**:
+Each group member defined his model with distinct **learning rate, dropout rate and early stopping criteria**:
 - **Jules Gatete**: Adam optimizer with L2 regularization
-- **Pascal Mugisha**: RMSprop optimizer with dropout and L2 regularization
-- **Geofrey Tumwesigye**: SGD optimizer with momentum
-
-Each model is trained and evaluated separately.
-
+- **Pascal Mugisha**: SGD optimizer with L2 regularization
+- **Geofrey Tumwesigye**:RMSprop optimizer with dropout and L2 regularization
+  
 ## Model Evaluation
-Each member compares their model's performance based on:
+Each member compared his model's performance based on:
 - **Accuracy**
 - **F1 Score**
 - **Precision & Recall**
@@ -74,9 +72,9 @@ A video walkthrough explaining the models, optimizations, and results.
 [Video Link - (To be added)]
 
 ## Contribution and Documentation
-- Each member contributed by defining a model, training, and evaluating it.
+- Each member contributed by defining a model, training and evaluating it.
 - Commits reflect meaningful contributions and progress.
-- The final report includes methodology, findings, and key insights.
+- The final report includes methodology, findings and challenges/insights.
 
 ## Conclusion
 This project successfully applies neural networks to classify water potability, showcasing the impact of different optimization strategies. The comparison provides insights into model performance and areas for improvement.
