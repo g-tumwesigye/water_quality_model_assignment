@@ -71,6 +71,8 @@ Each member compared his model's performance based on:
 A video walkthrough explaining the models, optimizations, and results.  
 [Video Link - (To be added)]
 
+## Group report
+[Link to the group report (https://docs.google.com/document/d/1OrhiF1HIOaJfwLg2nQ_42MbJUmUYxLkcQBXUHiwqh6Y/edit?tab=t.0)]
 ## Contribution and Documentation
 - Each member contributed by defining a model, training and evaluating it.
 - Commits reflect meaningful contributions and progress.
